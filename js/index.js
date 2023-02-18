@@ -24,11 +24,11 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||啦啦啦|生日|快乐|哈哈|哈哈！！|#rectangle|');
+      S.UI.simulate('|#countdown 3||啦啦啦|生日|快乐|哈哈|哈哈！！|❀|');
     }
 
     S.Drawing.loop(function () {
-      S.Shape.render();
+      S.Shape.render();hua
     });
   }
 };
