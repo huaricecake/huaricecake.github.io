@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3|啦啦啦|生日|快乐！！|❀|');
+      S.UI.simulate('|#countdown 3|周杰伦|库里|永远第一|❀|');
     }
 
     S.Drawing.loop(function () {
